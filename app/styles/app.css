@@ -1,0 +1,40 @@
+/*TODO - break into separate, logical css files that contain similar sections*/
+
+/************************************************************** name */
+.envy {
+  color: #5b9c46;
+  font-family: monospace;
+  font-weight: bolder;
+  text-shadow:1px 0px 2px #6fae5b,
+        -1px 0px 2px #6fae5b;
+}
+.envy:hover{
+  text-decoration: none;
+  color: rgb(121, 197 ,114);
+}
+
+
+
+/************************************************************** navbar */
+/* this helps justify everything into the center of the navbar *********/
+@media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
+}
+
+.navcss {
+  /* 25th and 15th prime numbers */
+  background-color: rgb(0, 97, 47) !important;
+}
+
+.navtext {
+  color: white !important;
+  margin-top: 3px !important;
+}
+.navtext:hover {
+  color: #5b9c46 !important;
+}
